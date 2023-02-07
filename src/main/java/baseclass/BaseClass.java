@@ -37,6 +37,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  * 
  * @author Srikanth Chincholi
  * @param browser
+ * @throws Exception
  */
 
 public class BaseClass {
