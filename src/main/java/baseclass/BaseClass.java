@@ -33,6 +33,12 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+/**
+ * 
+ * @author Srikanth Chincholi
+ *
+ */
+
 public class BaseClass {
 
 	protected static WebDriver d;
