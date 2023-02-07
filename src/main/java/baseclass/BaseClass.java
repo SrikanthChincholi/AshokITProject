@@ -33,7 +33,11 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-
+/**
+ * 
+ * @author DELL
+ *
+ */
 public class BaseClass {
 
 	protected static WebDriver d;
