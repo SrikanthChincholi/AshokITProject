@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-06T09:57:32 IST" name="Default suite" finished-at="2023-02-06T09:59:25 IST" duration-ms="113659">
+    <groups>
+    </groups>
+    <test started-at="2023-02-06T09:57:32 IST" name="Default test" finished-at="2023-02-06T09:59:25 IST" duration-ms="113659">
+      <class name="test.TestClass">
+        <test-method is-config="true" signature="suiteConfig()[pri:0, instance:test.TestClass@d5ae57e]" started-at="2023-02-06T09:57:31 IST" name="suiteConfig" finished-at="2023-02-06T09:57:32 IST" duration-ms="1019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteConfig -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:test.TestClass@d5ae57e]" started-at="2023-02-06T09:57:32 IST" name="setUp" finished-at="2023-02-06T09:57:42 IST" duration-ms="10695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@8af1c49]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dbtest1(java.lang.reflect.Method,config.EmployeeClass)[pri:0, instance:test.TestClass@d5ae57e]" started-at="2023-02-06T09:57:42 IST" name="dbtest1" data-provider="dbdata" finished-at="2023-02-06T09:58:01 IST" duration-ms="18729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestClass.dbtest1(java.lang.reflect.Method,config.EmployeeClass) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[config.EmployeeClass@349c4d1c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbtest1 -->
+        <test-method is-config="true" signature="ameth(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:test.TestClass@d5ae57e]" started-at="2023-02-06T09:58:01 IST" name="ameth" finished-at="2023-02-06T09:58:04 IST" duration-ms="3020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestClass.dbtest1(java.lang.reflect.Method,config.EmployeeClass) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=dbtest1 status=SUCCESS method=TestClass.dbtest1(java.lang.reflect.Method,config.EmployeeClass)[pri:0, instance:test.TestClass@d5ae57e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ameth -->
+        <test-method signature="dbtest1(java.lang.reflect.Method,config.EmployeeClass)[pri:0, instance:test.TestClass@d5ae57e]" started-at="2023-02-06T09:58:04 IST" name="dbtest1" data-provider="dbdata" finished-at="2023-02-06T09:58:22 IST" duration-ms="17712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestClass.dbtest1(java.lang.reflect.Method,config.EmployeeClass) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[config.EmployeeClass@77083e41]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbtest1 -->
+        <test-method is-config="true" signature="ameth(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:test.TestClass@d5ae57e]" started-at="2023-02-06T09:58:22 IST" name="ameth" finished-at="2023-02-06T09:58:25 IST" duration-ms="3007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestClass.dbtest1(java.lang.reflect.Method,config.EmployeeClass) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=dbtest1 status=SUCCESS method=TestClass.dbtest1(java.lang.reflect.Method,config.EmployeeClass)[pri:0, instance:test.TestClass@d5ae57e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ameth -->
+        <test-method signature="dbtest1(java.lang.reflect.Method,config.EmployeeClass)[pri:0, instance:test.TestClass@d5ae57e]" started-at="2023-02-06T09:58:25 IST" name="dbtest1" data-provider="dbdata" finished-at="2023-02-06T09:58:40 IST" duration-ms="15392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestClass.dbtest1(java.lang.reflect.Method,config.EmployeeClass) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[config.EmployeeClass@700b9e6b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbtest1 -->
+        <test-method is-config="true" signature="ameth(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:test.TestClass@d5ae57e]" started-at="2023-02-06T09:58:40 IST" name="ameth" finished-at="2023-02-06T09:58:43 IST" duration-ms="3003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestClass.dbtest1(java.lang.reflect.Method,config.EmployeeClass) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=dbtest1 status=SUCCESS method=TestClass.dbtest1(java.lang.reflect.Method,config.EmployeeClass)[pri:0, instance:test.TestClass@d5ae57e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ameth -->
+        <test-method signature="dbtest1(java.lang.reflect.Method,config.EmployeeClass)[pri:0, instance:test.TestClass@d5ae57e]" started-at="2023-02-06T09:58:43 IST" name="dbtest1" data-provider="dbdata" finished-at="2023-02-06T09:59:01 IST" duration-ms="17791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestClass.dbtest1(java.lang.reflect.Method,config.EmployeeClass) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[config.EmployeeClass@6c8efde4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbtest1 -->
+        <test-method is-config="true" signature="ameth(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:test.TestClass@d5ae57e]" started-at="2023-02-06T09:59:01 IST" name="ameth" finished-at="2023-02-06T09:59:04 IST" duration-ms="3013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestClass.dbtest1(java.lang.reflect.Method,config.EmployeeClass) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=dbtest1 status=SUCCESS method=TestClass.dbtest1(java.lang.reflect.Method,config.EmployeeClass)[pri:0, instance:test.TestClass@d5ae57e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ameth -->
+        <test-method signature="dbtest1(java.lang.reflect.Method,config.EmployeeClass)[pri:0, instance:test.TestClass@d5ae57e]" started-at="2023-02-06T09:59:04 IST" name="dbtest1" data-provider="dbdata" finished-at="2023-02-06T09:59:22 IST" duration-ms="17644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestClass.dbtest1(java.lang.reflect.Method,config.EmployeeClass) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[config.EmployeeClass@3855d9b2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbtest1 -->
+        <test-method is-config="true" signature="ameth(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:test.TestClass@d5ae57e]" started-at="2023-02-06T09:59:22 IST" name="ameth" finished-at="2023-02-06T09:59:25 IST" duration-ms="3015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestClass.dbtest1(java.lang.reflect.Method,config.EmployeeClass) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=dbtest1 status=SUCCESS method=TestClass.dbtest1(java.lang.reflect.Method,config.EmployeeClass)[pri:0, instance:test.TestClass@d5ae57e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ameth -->
+        <test-method is-config="true" signature="atest()[pri:0, instance:test.TestClass@d5ae57e]" started-at="2023-02-06T09:59:25 IST" name="atest" finished-at="2023-02-06T09:59:25 IST" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atest -->
+      </class> <!-- test.TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
