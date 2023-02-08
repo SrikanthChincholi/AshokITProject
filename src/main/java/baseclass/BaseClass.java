@@ -31,7 +31,7 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 /**
-* this is added thru remote local branch
+* this is added thru remote local repo branch
 *
 */
 
