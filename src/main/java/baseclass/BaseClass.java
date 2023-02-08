@@ -30,10 +30,7 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-/**
-* this is added thru pc local branch
-*
-*/
+
 
 public class BaseClass {
 
