@@ -33,7 +33,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 /**
 **@author Srikanth
 * @params : testdata
-* * @category : testing and development
+* @category : testing
 **/
 
 public class BaseClass {
