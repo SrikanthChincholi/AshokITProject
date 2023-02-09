@@ -14,7 +14,7 @@ public class FirefoxGridClass extends GridConfig {
 		System.out.println(d.getTitle());
 		Thread.sleep(10000);
 		d.quit();
-		
+
 	}
 	@Test
 	public void getTitle2() throws MalformedURLException, InterruptedException {
@@ -24,7 +24,7 @@ public class FirefoxGridClass extends GridConfig {
 		System.out.println(d.getTitle());
 		Thread.sleep(10000);
 		d.quit();
-		
+
 	}
 	@Test
 	public void getTitle3() throws MalformedURLException, InterruptedException {
@@ -34,7 +34,7 @@ public class FirefoxGridClass extends GridConfig {
 		System.out.println(d.getTitle());
 		Thread.sleep(10000);
 		d.quit();
-		
+
 	}
 
 }

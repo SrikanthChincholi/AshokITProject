@@ -23,6 +23,11 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 
+import commonfunctions.CommonFunctionClass;
+import config.DBConfig;
+import config.EmployeeClass;
+import config.ExtentReporterClass;
+import config.PropertiesReaderClass;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 /**
@@ -80,10 +85,10 @@ public class BaseClass {
 			test.log(Status.PASS, MarkupHelper.createLabel(result.getName() + " Passed + ", ExtentColor.GREEN));
 		} else if (!result.isSuccess()) {
 			{
-				if (result.getStatus() == result.SKIP) {
+				if (result.getStatus() == ITestResult.SKIP) {
 					System.out.println(m.getName() + " skipped ");
 					test.log(Status.SKIP, "Test Skipped !!");
-				} else if (result.getStatus() == result.FAILURE) {
+				} else if (result.getStatus() == ITestResult.FAILURE) {
 					System.out.println(m.getName() + "Test failed ");
 					test.log(Status.FAIL, result.getThrowable());
 					test.log(Status.FAIL, MarkupHelper.createLabel(result.getName() + " Failed + ", ExtentColor.RED));
