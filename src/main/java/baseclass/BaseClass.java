@@ -5,12 +5,6 @@ import java.sql.SQLException;
 import java.time.Duration;
 import java.util.List;
 
-import commonfunctions.CommonFunctionClass;
-import config.DBConfig;
-import config.EmployeeClass;
-import config.ExtentReporterClass;
-import config.PropertiesReaderClass;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -23,6 +17,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
+
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
