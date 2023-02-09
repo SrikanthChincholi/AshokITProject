@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: TestSuite
--------------------------------------------------------------------------------
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 67.782 s <<< FAILURE! - in TestSuite
-test.TestClass.test1[public void test.TestClass.test1(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception, Yes, admin, admin123, Dashboard123](3)  Time elapsed: 2.546 s  <<< FAILURE!
-java.lang.AssertionError: expected [Dashboard] but found [Dashboard123]
-	at test.TestClass.test1(TestClass.java:48)
-
